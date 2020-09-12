@@ -8,11 +8,13 @@ import { AppComponent } from './app.component';
 import { App1SharedModule } from '../../projects/app1/src/app/app.module';
 import { App2SharedModule } from '../../projects/app2/src/app/app.module';
 import { NavComponent } from './nav/nav.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
