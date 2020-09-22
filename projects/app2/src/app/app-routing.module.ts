@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'app2/one', component: View1Component },
   { path: 'app2/two', component: View2Component },
   { path: 'app2', redirectTo: 'app2/one' },
+  { path: '', component: View1Component },
 ];
 
 @NgModule({
